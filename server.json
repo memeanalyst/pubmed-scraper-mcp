@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/pubmed-scraper-mcp",
+  "title": "PubMed Scraper",
+  "description": "Search PubMed biomedical literature and fetch structured article records.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/pubmed-scraper-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/pubmed-scraper"
+    }
+  ]
+}
